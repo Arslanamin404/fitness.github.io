@@ -1,0 +1,134 @@
+@font-face {
+    font-family:AQUIRE;
+    src: url(../../Fonts/AQUIRE/Aquire-BW0ox.otf);
+    font-family: Autography;
+    src: url(../../Fonts/Autography/Autography.otf);
+    font-family: Aquatico;
+    src: url(../../Fonts/Aquatico/Aquatico-Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.mid{
+    display: block;
+    width: 55%;
+    margin: 8px auto;
+}
+.left img{
+    width: 70px;
+    filter: invert(100%);
+    padding: 2px 60px 15px;
+}
+.left div{
+    text-align: center;
+    padding-right: 60px;
+    line-height: 20px;
+    font-family: 'Aquatico';
+    font-size: 15px;
+}
+.left div::first-letter{
+    color: red;
+    font-family: 'Autography';
+    font-size: 40px;
+    font-weight: bolder;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size:20px ;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 11px;
+    font-family: 'Aquatico';
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:orange;
+}
+.btn{
+    margin: 0px 0px;
+    background-color: rgb(36, 36, 35);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-weight: bolder;
+    font-size: 19px;
+    
+}
+.container{
+    margin: 0px 100px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 28px;
+}
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width:70% ;
+    padding:1px ;
+    border:2px solid black ;
+    margin: 15px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.dropdown{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    width:70% ;
+    padding:5px ;
+    border:2px solid black ;
+    margin: 15px auto;
+}
+h1{
+    font-family: 'AQUIRE';
+    font-size: 46px;
+    margin: 150px 0px -70px 120px;
+}
+.form-group button{
+    display: block;
+    width: 70%;
+    margin: 20px auto;
+}
+.credit{
+    position: sticky;
+    bottom: 0;
+    float: right;
+}
